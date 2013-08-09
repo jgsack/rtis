@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Session:</strong>
+  <%= @section.session_id %>
+</p>
+
+<p>
+  <strong>Teacher:</strong>
+  <%= @section.teacher_id %>
+</p>
+
+<p>
+  <strong>Room:</strong>
+  <%= @section.room %>
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  <%= @section.subject %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @section.description %>
+</p>
+
+<p>
+  <strong>Capacity:</strong>
+  <%= @section.capacity %>
+</p>
+
+<%= link_to 'Edit', edit_section_path(@section) %> |
+<%= link_to 'Back', sections_path %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  session_id: 1
+  teacher_id: 1
+  room: MyString
+  subject: MyString
+  description: MyString
+  capacity: 1
+
+two:
+  session_id: 1
+  teacher_id: 1
+  room: MyString
+  subject: MyString
+  description: MyString
+  capacity: 1
