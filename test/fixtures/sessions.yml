@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  description: MyString
+  startdate: 2013-08-09
+  schoolid: 1
+
+two:
+  description: MyString
+  startdate: 2013-08-09
+  schoolid: 1

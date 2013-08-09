@@ -9,12 +9,12 @@ gem 'sqlite3'
 
 # for Oracle
 gem 'ruby-oci8' 
-gem 'activerecord-oracle_enhanced-adapter'  
+#gem 'activerecord-oracle_enhanced-adapter'  
 #gem 'activerecord-oracle-adapter'  --source http://gems.rubyonrails.org
-gem 'bootstrap-sass', '2.1'
-gem 'will_paginate', '3.0.3'
-gem 'bootstrap-will_paginate', '0.0.6'
-gem 'squeel'
+#gem 'bootstrap-sass', '2.1'
+#gem 'will_paginate', '3.0.3'
+#gem 'bootstrap-will_paginate', '0.0.6'
+#gem 'squeel'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc2'
@@ -40,6 +40,10 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :production do
+  gem 'pg'
 end
 
 # Use ActiveModel has_secure_password
