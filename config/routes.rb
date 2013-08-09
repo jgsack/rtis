@@ -1,4 +1,6 @@
 Rtipost::Application.routes.draw do
+  resources :enrollments
+
   resources :sections
 
   resources :sessions
